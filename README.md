@@ -1,6 +1,6 @@
 # junit5-looming
 JUnit 5 Test Engine using project Loom early-access builds
-
+ openjdk-16-loom+3-43_windows-x64_bin
 - https://jdk.java.net/loom **Project Loom Early-Access Builds**
 - https://wiki.openjdk.java.net/display/loom/Getting+started **Getting started with Loom**
 - https://mail.openjdk.java.net/pipermail/loom-dev **The loom-dev Archives**
@@ -11,6 +11,7 @@ JUnit 5 Test Engine using project Loom early-access builds
 
 | Processor              | Threads 10.000 | Threads 100.000 | Virtual 10.000 | Virtual 100.000 | Virtual 1.000.000|
 |----------------------- |----------------|-----------------|----------------|---------------- |------------------|
+|      4930mx (Win 10)   | 5.8            | 51              | 1.1            | 1.6             | 8.8 :rocket:     |
 | Ryzen 3700X (Win 10)   | 5.6            | 51              | 1.1            | 1.2             | 3.9 :rocket:     |
 | i7-3770K (Win 10)      | 6              | 51              | 1.2            | 1.5             | 5.2 :rocket:     |
 | i7-7920HQ (Mac OS)     | 6              | 51              | 1.2            | 1.7             | 7.1 :rocket:     |
