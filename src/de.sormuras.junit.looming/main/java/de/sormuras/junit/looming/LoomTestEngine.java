@@ -67,7 +67,10 @@ public class LoomTestEngine implements TestEngine {
   }
 
   private static ExecutorService newExecutorService(boolean virtual) {
-    if (virtual) return Executors.newVirtualThreadExecutor();
+    if (virtual) {
+        return Executors.newVirtualThreadPerTaskExecutor();
+    }
+    //Executors.newVirtualThreadExecutor();
     return Executors.newFixedThreadPool(1000);
   }
 

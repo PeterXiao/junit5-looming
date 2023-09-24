@@ -7,10 +7,11 @@ JUnit 5 Test Engine using project Loom early-access builds
 - https://cr.openjdk.java.net/~rpressler/loom/loom/sol1_part1.html **State of Loom** Ron Pressler, May 2020
 - https://www.youtube.com/watch?v=NV46KFV1m-4 **Project Loom Update** Alan Bateman, Rickard Bäckman, July 2019
 
-## timings
+## timings s
 
 | Processor              | Threads 10.000 | Threads 100.000 | Virtual 10.000 | Virtual 100.000 | Virtual 1.000.000|
 |----------------------- |----------------|-----------------|----------------|---------------- |------------------|
+|      4930mx (Win 10)   | 6.1            | 51              | 1.2            | 1.9             | 8.2 :rocket:     |
 |      4930mx (Win 10)   | 5.8            | 51              | 1.1            | 1.9             | 7.8 :rocket:     |
 |      4930mx (Win 10)   | 5.8            | 51              | 1.1            | 1.6             | 7.3 :rocket:     |
 | Ryzen 3700X (Win 10)   | 5.6            | 51              | 1.1            | 1.2             | 3.9 :rocket:     |
