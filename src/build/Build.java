@@ -44,20 +44,35 @@ public class Build {
 
   Path assemble(Path lib) throws Exception {
     Files.createDirectories(lib);
-    load(lib, "org.apiguardian", "apiguardian-api", "1.1.2");
+
+    load(lib, "org.apiguardian", "apiguardian-api", "1.1.0");
     load(lib, "org.opentest4j", "opentest4j", "1.3.0");
-    var platform = "1.10.0";
+    var platform = "1.10.1";
     load(lib, "org.junit.platform", "junit-platform-commons", platform);
     load(lib, "org.junit.platform", "junit-platform-console", platform);
     load(lib, "org.junit.platform", "junit-platform-engine", platform);
     load(lib, "org.junit.platform", "junit-platform-launcher", platform);
     load(lib, "org.junit.platform", "junit-platform-reporting", platform);
-    var jupiter = "5.10.0";
+    var jupiter = "5.10.1";
     load(lib, "org.junit.jupiter", "junit-jupiter", jupiter);
     load(lib, "org.junit.jupiter", "junit-jupiter-api", jupiter);
     load(lib, "org.junit.jupiter", "junit-jupiter-engine", jupiter);
     load(lib, "org.junit.jupiter", "junit-jupiter-params", jupiter);
     return lib;
+//    load(lib, "org.apiguardian", "apiguardian-api", "1.1.2");
+//    load(lib, "org.opentest4j", "opentest4j", "1.3.0");
+//    var platform = "1.10.0";
+//    load(lib, "org.junit.platform", "junit-platform-commons", platform);
+//    load(lib, "org.junit.platform", "junit-platform-console", platform);
+//    load(lib, "org.junit.platform", "junit-platform-engine", platform);
+//    load(lib, "org.junit.platform", "junit-platform-launcher", platform);
+//    load(lib, "org.junit.platform", "junit-platform-reporting", platform);
+//    var jupiter = "5.10.0";
+//    load(lib, "org.junit.jupiter", "junit-jupiter", jupiter);
+//    load(lib, "org.junit.jupiter", "junit-jupiter-api", jupiter);
+//    load(lib, "org.junit.jupiter", "junit-jupiter-engine", jupiter);
+//    load(lib, "org.junit.jupiter", "junit-jupiter-params", jupiter);
+//    return lib;
   }
 
   Path compile(

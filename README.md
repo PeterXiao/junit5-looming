@@ -11,6 +11,7 @@ JUnit 5 Test Engine using project Loom early-access builds
 
 | Processor                  | Threads 10.000 | Threads 100.000 | Virtual 10.000 | Virtual 100.000 | Virtual 1.000.000 |
 |----------------------------|----------------|-----------------|----------------|-----------------|-------------------|
+| 4930mx (Win 11)            | 5.8            | 51              | 1.7            | 2.4             | 9.2 :rocket:      |
 | 4930mx (Win 11 IBM jdk21 ) | 5.7            | 51              | 1.2            | 2.1             | 11.1 :rocket:     |
 | 4930mx (Win 11 IBM jdk21 ) | 5.8            | 52              | 1.5            | 2.1             | overdump :rocket: |
 | 4930mx (Win 11)            | 5.8            | 51              | 1.2            | 1.8             | 8.1 :rocket:      |
